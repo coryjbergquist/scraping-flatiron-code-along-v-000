@@ -45,4 +45,4 @@ end
 end
 
 Scraper.new.get_page
-lib/scraper.rb
+Scraper.new.print_courses
