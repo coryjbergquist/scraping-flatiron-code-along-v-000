@@ -7,8 +7,8 @@ require_relative './course.rb'
 class Scraper
 
   def get_courses
-
-  end
+  self.get_page.css(".post")
+end
 
   def get_page
 
